@@ -1,4 +1,0 @@
-bumper:red
-door:white
-trunk:black
-wheel:silver
