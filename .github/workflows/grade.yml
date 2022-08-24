@@ -1,0 +1,15 @@
+name: GRADE
+
+on:
+  pull_request:
+    branches: [grade]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - users: actions/checkout@v2
+
+      - name: Script log
+        run: echo hello world!
